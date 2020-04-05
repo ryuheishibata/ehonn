@@ -1,0 +1,144 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.margin{
+  margin:0 auto;
+}
+.center{
+  text-align: center;
+}
+.side{
+  border-left:solid 6px #917c7e;
+  margin-bottom: 30px;
+}
+
+header{
+  z-index: 20;
+  background:#FFF0F5;
+  position: fixed;
+  opacity: 1;
+  width:100%;
+}
+.container{
+  width:1024px;
+  height: 70px;
+  margin:0 auto;
+}
+.nav-list-item{
+  float:right;
+  list-style: none;
+  width:120px;
+  padding:0 20px;
+  margin-top:22px;
+  font-size:16px;
+  color:#333;
+}
+
+.nav-list-item1{
+  float:left;
+  list-style: none;
+  width:300px;
+  padding:0 20px;
+  margin-top:18px;
+  font-size:16px;
+  color:#333;
+}
+.mainvisual{
+  width:100%;
+  height:300px;
+}
+.section{
+  height:60px;
+  background:#b29c8b;
+  border-radius:2px;
+  margin:0 auto;
+  color:white;
+  padding-top: 13px;
+  padding-left:20px;
+}
+.contents{
+  height:500px;
+  max-width:980px;
+  width:90%;
+  margin:0 auto;
+}
+.text{
+  margin-left:20px;
+  margin-top: 50px;
+}
+.teacher{
+  height:500px;
+  padding-top:20px;
+  max-width:980px;
+  width:90%;
+  margin:0 auto;
+}
+.teachers-img{
+  float:left;
+  background: blue;
+  width:200px;
+  height:200px;
+  margin-top:60px;
+  margin-left:50px;
+}
+.profile{
+  float:left;
+  margin-top:60px;
+  margin-left:100px;
+}
+.time-money{
+  height:500px;
+  padding-top:20px;
+  max-width:980px;
+  width:90%;
+  margin:0 auto;
+}
+.access{
+  height:1000px;
+  padding-top:20px;
+  max-width:980px;
+  width:90%;
+  margin:0 auto;
+}
+.komae{
+  margin-top:100px;
+  padding-left:60px;
+}
+.machida{
+  margin-top:100px;
+  padding-left:60px;
+}
+.access-text{
+  float:left;
+  padding-top:0px;
+}
+.map{
+  float:right;
+  width:420px;
+  height:320px;
+}
+.form{
+  height:500px;
+  padding-top:20px;
+  max-width:980px;
+  width:90%;
+  margin:0 auto;
+}
+
+footer{
+  width:100%;
+  height:80px;
+  background:#EEEEEE;
+}
+
+
